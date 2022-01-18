@@ -27,61 +27,66 @@
   <body>
     <!-- HEADER SECTION -->
     <header class="main-header">
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-light container-fluid"
-      >
-        <a class="navbar-brand" href="#">
-          <img
-            src="/images/mediatrix-main-logo.svg"
-            alt="mary-mediatrix-dental-clinic"
-            width="140"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="btn btn-primary cta-btn"
-                >Request Appointment</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/images/mediatrix-main-logo.svg"
+              alt="mary-mediatrix-dental-clinic"
+              width="140"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="btn btn-primary cta-btn"
+                  >Request Appointment</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
       <!-- HERO SECTION -->
-      <div class="hero-section grid container-fluid">
-        <div class="hero-text">
-          <h1 class="header">Affordable Dental Service</h1>
-          <hr class="main-line" />
-          <h2 class="sub-header">Calamba City, Laguna, Philippines</h2>
-          <a href="" class="btn btn-primary cta-btn">SCHEDULE YOUR VISIT</a>
+      <div class="container-fluid">
+        <div class="hero-section grid">
+          <div class="hero-text">
+            <h1 class="header">Affordable Dental Service</h1>
+            <hr class="main-line" />
+            <h2 class="sub-header">Calamba City, Laguna, Philippines</h2>
+            <a href="" class="btn btn-primary cta-btn">SCHEDULE YOUR VISIT</a>
+          </div>
         </div>
       </div>
     </header>
 
     <!-- ABOUT US SECTION -->
-    <section id="about-us-section">
+    <section id="about-us-section" class="white-bg">
       <div class="container-fluid">
-        <div class="about-us grid white-bg">
+        <div class="about-us grid">
           <div class="about-us-text">
             <h2>Hello! We are Mary Mediatrix Dental Clinic.</h2>
             <hr class="main-line" />
@@ -98,7 +103,7 @@
     </section>
 
     <!-- CLINIC SECTION -->
-    <section id="our-clinic-section main-colored-bg">
+    <section id="our-clinic-section" class="main-colored-bg">
       <div class="container-fluid">
         <div class="our-clinic">
           <div class="clinic-text">
@@ -201,6 +206,30 @@
               <a href="#" class="btn btn-primary cta-btn"
                 >SCHEDULE YOUR VISIT</a
               >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR OFFERS SECTION -->
+    <section id="our-offers-section" class="colored-bg">
+      <div class="container-fluid">
+        <div class="our-offers">
+          <div class="offers-text">
+            <h2>What we offer.</h2>
+            <hr class="main-line" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="offers-cards grid">
+            <div class="offers-card">
+              <h3>Precision</h3>
+            </div>
+            <div class="offers-card">
+              <h3>Affordability</h3>
+            </div>
+            <div class="offers-card">
+              <h3>Professionalism</h3>
             </div>
           </div>
         </div>
