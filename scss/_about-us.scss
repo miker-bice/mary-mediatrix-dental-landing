@@ -1,0 +1,27 @@
+.about-us{
+    padding: 10% 0;
+}
+
+.about-us-text{
+    color: $main-color;
+
+    h2{
+        font-family: $main-font;
+        font-weight: 600;
+        font-size: 1.75em;
+        width: 70%;
+    }
+    p{
+        font-weight: 400;
+        font-size: .90em;
+        width: 70%;
+        line-height: 1.15;
+    }
+}
+.about-us-img{
+    
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+}
