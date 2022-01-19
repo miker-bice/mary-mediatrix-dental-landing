@@ -18,4 +18,22 @@ a {
 body {
   font-family: "Montserrat Alternates", sans-serif;
 }
+
+.btn {
+  display: inline-block;
+  color: #ffff;
+}
+
+.btn-primary {
+  background-color: #75E6DA;
+  border-color: #75E6DA;
+}
+
+.main-colored-bg {
+  background-color: #05545E;
+}
+
+.colored-bg {
+  background-color: #D4F1F4;
+}
 /*# sourceMappingURL=styles.css.map */
