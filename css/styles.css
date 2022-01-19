@@ -113,4 +113,39 @@ body {
   width: 100%;
   border-radius: 10px;
 }
+
+.our-clinic {
+  padding: 10% 0;
+}
+
+.clinic-text {
+  color: #ffff;
+}
+
+.clinic-text h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.75em;
+  width: 70%;
+}
+
+.clinic-text p {
+  font-weight: 400;
+  font-size: .90em;
+  line-height: 1.15;
+  width: 70%;
+}
+
+.clinic-carousel img {
+  border-radius: 10px;
+}
+
+.clinic-carousel .carousel-item {
+  border-radius: 10px;
+}
+
+.carousel-cta-container {
+  text-align: center;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=styles.css.map */
