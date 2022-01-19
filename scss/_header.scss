@@ -1,0 +1,21 @@
+
+.hero-section{
+    padding: 80px 0;
+}
+.hero-text{
+    color: #ffff;
+
+    .header{
+        font-family: $main-font;
+        font-weight: 500;
+        font-size: 2em;
+    }
+
+    .sub-header{
+        font-weight: 400;
+        font-size: 1em;
+    }
+    a{
+        margin: 10px 0;
+    }
+}
