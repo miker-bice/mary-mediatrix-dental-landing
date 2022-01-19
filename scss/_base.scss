@@ -1,6 +1,11 @@
 .container-fluid{
     padding: 4% 5%;
 }
+
+/* grid */
+.grid{
+    display: grid;
+}
 /* SECTION BACKGROUND COLORS */
 .main-colored-bg{
     background-color: $main-color;
