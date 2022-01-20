@@ -151,6 +151,11 @@ body {
   width: 70%;
 }
 
+.clinic-text em {
+  font-style: normal;
+  font-weight: 600;
+}
+
 .clinic-carousel img {
   border-radius: 10px;
 }
