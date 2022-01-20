@@ -6,6 +6,10 @@
 .grid{
     display: grid;
 }
+.flex{
+    display: flex;
+    align-items: center;
+}
 /* SECTION BACKGROUND COLORS */
 .main-colored-bg{
     background-color: $main-color;

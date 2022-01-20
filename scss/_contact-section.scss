@@ -26,4 +26,24 @@
         height: 100%;
         margin: 20px 0;
     }
+
+}
+
+.socials-container{
+    margin: 10px;
+
+    h3{
+        font-weight: 400;
+        font-size: .90em;
+        width: 80%;
+        margin: 0 auto;
+    }
+    h4{
+        font-size: 1em;
+        font-family: $main-font;
+    }
+    img{
+        width: 2em;
+        margin: 5px 0;
+    }
 }
