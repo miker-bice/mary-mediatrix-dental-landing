@@ -1,5 +1,5 @@
 .main-header{
-    background-image: linear-gradient(0deg, rgba(5,84,94,0.9051995798319328) 42%, rgba(117,230,218,0.7) 100%),
+    background-image: $main-gradient,
     url(/images/clinic-images/main-background-mobile.jpg);
     background-size: cover;
     background-position: center;
