@@ -1,8 +1,8 @@
-.main-header{
-    background-image: $main-gradient,
-    url(/images/clinic-images/main-background-mobile.jpg);
-    background-size: cover;
-    background-position: center;
+
+.nav-item{
+    a {
+        font-family: $main-font;
+    }
 }
 .hero-section{
     padding: 20% 0;
@@ -14,6 +14,7 @@
         font-family: $main-font;
         font-weight: 600;
         font-size: 2em;
+
     }
 
     .sub-header{
@@ -22,5 +23,28 @@
     }
     a{
         margin: 10px 0;
+    }
+
+}
+.main-header{
+    background-image: $main-gradient,
+    url(/images/clinic-images/main-background-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+
+    @include break(768px){
+        background-image: $main-gradient,
+        url(/images/clinic-images/main-background-ipad.jpg);
+
+        .header{
+            font-size: 3em;
+        }
+
+        
+    }
+
+    @include break(1280px){
+        background-image: $main-gradient,
+        url(/images/clinic-images/main-background.jpg);
     }
 }

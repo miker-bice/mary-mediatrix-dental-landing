@@ -28,6 +28,16 @@ body {
 .container-fluid {
   padding: 4% 5%;
 }
+@media screen and (min-width: 768px) {
+  .container-fluid {
+    padding: 4% 10%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container-fluid {
+    padding: 4% 15%;
+  }
+}
 
 /* grid */
 .grid {
@@ -76,10 +86,8 @@ body {
 }
 
 /* HTML BODY */
-.main-header {
-  background-image: linear-gradient(0deg, rgba(5, 84, 94, 0.9051995798) 66%, rgba(117, 230, 218, 0.7) 100%), url(/images/clinic-images/main-background-mobile.jpg);
-  background-size: cover;
-  background-position: center;
+.nav-item a {
+  font-family: "Montserrat", sans-serif;
 }
 
 .hero-section {
@@ -100,6 +108,25 @@ body {
 }
 .hero-text a {
   margin: 10px 0;
+}
+
+.main-header {
+  background-image: linear-gradient(0deg, rgba(5, 84, 94, 0.9051995798) 66%, rgba(117, 230, 218, 0.7) 100%), url(/images/clinic-images/main-background-mobile.jpg);
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (min-width: 768px) {
+  .main-header {
+    background-image: linear-gradient(0deg, rgba(5, 84, 94, 0.9051995798) 66%, rgba(117, 230, 218, 0.7) 100%), url(/images/clinic-images/main-background-ipad.jpg);
+  }
+  .main-header .header {
+    font-size: 3em;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .main-header {
+    background-image: linear-gradient(0deg, rgba(5, 84, 94, 0.9051995798) 66%, rgba(117, 230, 218, 0.7) 100%), url(/images/clinic-images/main-background.jpg);
+  }
 }
 
 .about-us {

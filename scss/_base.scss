@@ -1,5 +1,13 @@
 .container-fluid{
     padding: 4% 5%;
+
+    @include break(768px){
+        padding: 4% 10%;
+    }
+
+    @include break(1280px){
+        padding: 4% 15%;
+    }
 }
 
 /* grid */
