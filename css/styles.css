@@ -71,6 +71,13 @@ body {
 }
 
 /* HTML BODY */
+header {
+  background-image: url(/images/clinic-images/main-background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .hero-section {
   padding: 20% 0;
 }
