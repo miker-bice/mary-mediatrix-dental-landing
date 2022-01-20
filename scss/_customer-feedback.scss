@@ -1,0 +1,40 @@
+.customer-feedback{
+    padding: 10% 0;
+
+    h2{
+        font-family: $main-font;
+        font-weight: 600;
+        font-size: 1.75em;
+        width: 90%;
+    }
+    p{
+        font-weight: 400;
+        font-size: .90em;
+        line-height: 1.15;
+        width: 70%;
+    }
+}
+
+.feedback-cards{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+
+    .feedback-card{
+        grid-column: 1/5;
+        background-color: $third-color;
+        border-radius: 10px;
+        text-align: center;
+        padding: 40px;
+
+        h3{
+            font-weight: 700;
+        }
+        h4{
+            font-family: $main-font;
+            font-weight: 400;
+            font-size: .7em;
+        }
+    }
+}
+

@@ -21,6 +21,7 @@ hr {
 
 body {
   font-family: "Montserrat Alternates", sans-serif;
+  color: #05545E;
 }
 
 .container-fluid {
@@ -218,5 +219,49 @@ body {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-column: 2/4;
+}
+
+.customer-feedback {
+  padding: 10% 0;
+}
+
+.customer-feedback h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.75em;
+  width: 90%;
+}
+
+.customer-feedback p {
+  font-weight: 400;
+  font-size: .90em;
+  line-height: 1.15;
+  width: 70%;
+}
+
+.feedback-cards {
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.feedback-cards .feedback-card {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+  background-color: #D4F1F4;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px;
+}
+
+.feedback-cards .feedback-card h3 {
+  font-weight: 700;
+}
+
+.feedback-cards .feedback-card h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: .7em;
 }
 /*# sourceMappingURL=styles.css.map */
