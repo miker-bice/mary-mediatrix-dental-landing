@@ -1,0 +1,55 @@
+
+.about-us-text{
+    color: $main-color;
+
+    h2{
+        font-family: $main-font;
+        font-weight: 600;
+        font-size: 1.75em;
+        width: 70%;
+    }
+    p{
+        font-weight: 400;
+        font-size: .90em;
+        width: 85%;
+        line-height: 1.15;
+    }
+    em{
+        font-style: normal;
+        font-weight: 600;
+    }
+}
+.about-us-img{
+    
+    img{
+        width: 100%;
+        border-radius: 10px;
+        object-fit: contain;
+    }
+}
+
+.about-us{
+    padding: 10% 0;
+    
+    @include break(768px){
+        padding: 8% 0;
+
+        h2{
+            font-size: 2em;
+            width: 75%;
+        }
+        p{
+            font-size: 1.1em;
+        }
+
+    }
+
+    @include break(1280px){
+        padding: 5% 0;
+
+        h2{
+            font-size: 2.25em;
+            width: 70%;
+        }
+    }
+}
