@@ -8,4 +8,17 @@
         font-weight: 600;
         font-size: 2em;
     }
+
+    @include break(768px){
+        padding: 5% 0;
+
+        h2{
+            font-size: 3em;
+        }
+
+        a{
+            margin: 10px 0;
+        }
+    }
+
 }

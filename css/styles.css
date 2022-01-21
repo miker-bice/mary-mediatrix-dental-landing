@@ -491,6 +491,17 @@ body {
   font-weight: 600;
   font-size: 2em;
 }
+@media screen and (min-width: 768px) {
+  .call-to-action {
+    padding: 5% 0;
+  }
+  .call-to-action h2 {
+    font-size: 3em;
+  }
+  .call-to-action a {
+    margin: 10px 0;
+  }
+}
 
 .main-footer {
   text-align: center;
