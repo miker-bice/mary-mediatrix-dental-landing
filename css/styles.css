@@ -338,22 +338,6 @@ body {
   }
 }
 
-.customer-feedback {
-  padding: 10% 0;
-}
-.customer-feedback h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 1.75em;
-  width: 90%;
-}
-.customer-feedback p {
-  font-weight: 400;
-  font-size: 0.9em;
-  line-height: 1.15;
-  width: 70%;
-}
-
 .feedback-cards {
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -373,6 +357,64 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 0.7em;
+}
+
+.customer-feedback {
+  padding: 10% 0;
+}
+.customer-feedback h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.75em;
+  width: 90%;
+}
+.customer-feedback p {
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 1.15;
+  width: 70%;
+}
+@media screen and (min-width: 768px) {
+  .customer-feedback {
+    padding: 4% 0;
+  }
+  .customer-feedback h2 {
+    font-size: 2em;
+    width: 70%;
+  }
+  .customer-feedback p {
+    font-size: 1.2em;
+  }
+  .customer-feedback .feedback-cards {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .customer-feedback .feedback-cards .f_card1 {
+    grid-column: 1/4;
+  }
+  .customer-feedback .feedback-cards .f_card2 {
+    grid-column: 4/7;
+  }
+  .customer-feedback .feedback-cards .f_card3 {
+    grid-column: 2/6;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .customer-feedback h2 {
+    font-size: 2.25em;
+    width: 70%;
+  }
+  .customer-feedback .feedback-cards {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .customer-feedback .feedback-cards .f_card1 {
+    grid-column: 1/3;
+  }
+  .customer-feedback .feedback-cards .f_card2 {
+    grid-column: 3/5;
+  }
+  .customer-feedback .feedback-cards .f_card3 {
+    grid-column: 5/7;
+  }
 }
 
 .contact-us {
