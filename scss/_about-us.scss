@@ -1,6 +1,3 @@
-.about-us{
-    padding: 10% 0;
-}
 
 .about-us-text{
     color: $main-color;
@@ -23,5 +20,31 @@
     img{
         width: 100%;
         border-radius: 10px;
+    }
+}
+
+.about-us{
+    padding: 10% 0;
+    
+    @include break(768px){
+        padding: 8% 0;
+
+        h2{
+            font-size: 2em;
+            width: 75%;
+        }
+        p{
+            font-size: 1.1em;
+        }
+
+    }
+
+    @include break(1280px){
+        padding: 5% 0;
+
+        h2{
+            font-size: 2.25em;
+            width: 70%;
+        }
     }
 }
